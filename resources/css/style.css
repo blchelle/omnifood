@@ -297,3 +297,37 @@ header {
 }
 
 
+/*-------------------------------*/
+/* Cities components             */
+.city-feature ion-icon {
+    font-size: 100%;
+    margin-bottom: 0;
+    margin-right: 10px;
+    float: left;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+     
+}
+
+.city-twitter-url:link,
+.city-twitter-url:visited {
+    text-decoration: none;
+    color: #e67e22;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;;
+}
+
+.city-twitter-url:hover,
+.city-twitter-url:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
