@@ -6,13 +6,15 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #FFF;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix{zoom: 1}
@@ -98,6 +100,10 @@ h2:after {
 /* Icons                         */
 ion-icon {
     color: #e67e22;
+    display: block;
+}
+
+.section-features ion-icon {
     font-size: 350%;
     display: block;
     margin-bottom: 30px;
@@ -107,7 +113,8 @@ ion-icon {
 /*-------------------------------*/
 /* Buttons                       */
 .btn:link, 
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -117,7 +124,8 @@ ion-icon {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     color: #ffffff;
     border: 1px solid #e67e22;
     background-color: #e67e22;
@@ -131,7 +139,9 @@ ion-icon {
 }
 
 .btn:hover, 
-.btn:active {
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #cf6d17
 }
 
@@ -431,6 +441,86 @@ cite img {
 
 /*-------------------------------*/
 /* Form components               */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
 
+input[type=text],
+input[type=email],
+select, 
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
 
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10 5 10 0;
+}
+
+*:focus {outline: none;}
+
+/*-------------------------------*/
+/* Footer components             */
+footer {
+    background-color: #262626
+}
+
+footer .nav {
+    display: inline-block;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer .nav li {
+    float: left;
+    margin-right: 10px;
+}
+
+footer .nav a{
+    font-size: 90%;
+    text-decoration: none;
+}
+
+footer a:link,
+footer a:visited {
+    color: #777;
+    transition: color 0.2s;
+}
+
+footer a:hover,
+footer a:active {
+    color: #f4f4f4;
+}
+
+footer .social-links {
+    margin-top: 30px;
+    list-style: none;
+    display: inline-block;
+    float: right;
+}
+
+.social-links li {
+    float: left;
+    margin-left: 10px;
+}
+
+footer ion-icon {
+    font-size: 150%;
+    color: #777;
+    margin-bottom: 0;
+}
+
+footer p {
+    color: #777;
+    font-size: 70%;
+    margin-bottom: 30px;
+}
 
