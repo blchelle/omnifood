@@ -1,2 +1,14 @@
-# Omnifood
-A static website built with CSS, HTML, and JQuery as part of Jonas Schmedtman's CSS/HTML Udemy Course
+# Omnifood 🍔🍚🥕
+Omnifood is a static webpage built for a fictional gourmet food delivery service.
+
+## Live Site
+https://omnifood-brock-chelle.netlify.app/
+
+## Note 📝
+This site was built with the intention of practicing styling and laying out a webpage with HTML & CSS. Javascript an JQuery was used in some places in order to create smooth animations and transitions.
+
+## Technology Stack 💻
+* HTML5
+* CSS3
+* Javascript
+* JQuery https://jquery.com/
